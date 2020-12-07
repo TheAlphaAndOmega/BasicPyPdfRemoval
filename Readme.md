@@ -19,11 +19,7 @@ Here are the sequences of commands from the terminal:
 
 Now you should see a change in the folder name. It should look like this:
     
-    (MyNewFolderNameToBeCreated) C:\Users\123\Desktop\MyNewFolderNameToBeCreated\Scripts>
-    
-Now go a level up
-
-    cd ..
+    (MyNewFolderNameToBeCreated) C:\Users\123\Desktop\MyNewFolderNameToBeCreated>
 
 Now you need to copy 3 files to your folder. You can do this using folder explorer.
 
