@@ -23,7 +23,7 @@ Now you should see a change in the folder name. It should look like this:
 
 Now you need to copy 3 files to your folder. You can do this using folder explorer.
 
-##Copy the python project files to your folder.
+## Copy the python project files to your folder.
 
 1) Copy file "requirements.txt" to new folder/project
 2) Copy file "MakePdfLessRestrictive.py" to new folder/project
