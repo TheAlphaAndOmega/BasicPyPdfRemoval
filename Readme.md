@@ -40,7 +40,7 @@ Now go back to your venv terminal and execute the command:
 ## Give it a test
 Execute this from the venv terminal: 
 
-    python MakePdfLessRestrictive.py -i "C:\Users\123\Desktop\PdfWithPass.pdf" -o "C:\Users\123\Desktop\File_With_No_Pass.pdf" -p "password123"
+    python MakePdfLessRestrictive.py -i "C:\Users\123\Desktop\PdfWithPass.pdf" -o "C:\Users\123\Desktop\File_With_No_Pass.pdf" -p "file_password_plain_text"
 
 ## Make exe file
 Execute this from the venv terminal: 
@@ -51,9 +51,9 @@ There should now be 2 new folders created under `MyNewFolderNameToBeCreated`, on
 
 
 ## Run from command line to test the exe made by pyinstaller
-    "C:\Users\123\Desktop\MakePdfLessRestrictive.exe" -i "C:\Users\123\Desktop\File_With_Pass.pdf" -o "C:\Users\123\Desktop\File_With_No_Pass.pdf" -p "file_password_plain_text"
+    "C:\Users\123\Desktop\MyNewFolderNameToBeCreated\dist\MakePdfLessRestrictive.exe" -i "C:\Users\123\Desktop\File_With_Pass.pdf" -o "C:\Users\123\Desktop\File_With_No_Pass.pdf" -p "file_password_plain_text"
 
 ## VBA Code
     Private Sub testShellExe()
-        Call VBA.Shell("""C:\Users\123\Desktop\MakePdfLessRestrictive.exe"" -i ""C:\Users\123\Desktop\File_With_Pass.pdf"" -o ""C:\Users\123\Desktop\File_With_No_Pass.pdf"" -p ""password""")
+        Call VBA.Shell("""C:\Users\123\Desktop\MyNewFolderNameToBeCreated\dist\MakePdfLessRestrictive.exe"" -i ""C:\Users\123\Desktop\File_With_Pass.pdf"" -o ""C:\Users\123\Desktop\File_With_No_Pass.pdf"" -p ""file_password_plain_text""")
     End Sub
